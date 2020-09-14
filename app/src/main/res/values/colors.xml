@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2C3CCB</color>
+    <color name="colorPrimaryDark">#2C3CCB</color>
+    <color name="colorAccent">#E5E5E5</color>
+<!--    <color name="colorAccent">#89cff0</color>-->
+    <color name="black">#000000</color>
+    <color name = "brownText">#982B39</color>
+
+<!--    <color name="colorAccent">#759eb8</color>-->
+
+<!--    <color name="colorAccent">#4A708B</color>-->
+<!--    <color name="colorAccent">#84CAE7</color>-->
+<!--    <color name="colorAccent">#9CD6B0</color>-->
+</resources>

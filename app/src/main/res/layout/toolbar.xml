@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolBar"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="60dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    app:contentInsetStartWithNavigation="0dp"
+    app:contentInsetEnd="0dp">
+    <include
+        android:id="@+id/top_bar_item"
+        layout = "@layout/action_bar"/>
+</androidx.appcompat.widget.Toolbar>

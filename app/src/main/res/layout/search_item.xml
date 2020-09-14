@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:id="@+id/item_image_search"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:src="@drawable/mutoloki"
+        android:layout_weight="2"
+
+        />
+    <LinearLayout
+        android:paddingTop="16dp"
+        android:paddingLeft="8dp"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_box_24" />
+
+        <TextView
+            android:id="@+id/post_name_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginLeft="8dp"
+            android:text="Item Name" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_box_24" />
+
+            <TextView
+                android:id="@+id/item_price_search"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginLeft="8dp"
+                android:text="Item Price" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_box_24" />
+
+            <TextView
+                android:id="@+id/poster_search"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginLeft="8dp"
+                android:text="Item Name" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    
+
+</LinearLayout>
